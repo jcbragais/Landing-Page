@@ -186,3 +186,15 @@ p {
     color: white;
     padding: 50px;
 }
+
+.signup,
+.signup2 {
+    cursor: pointer;
+    transition: transform 0.1s ease;
+}
+
+.signup:active,
+.signup2:active {
+    transform: scale(0.95);
+    background-color: #0056b3;
+}
